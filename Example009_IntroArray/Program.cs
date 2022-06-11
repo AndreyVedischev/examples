@@ -6,8 +6,10 @@
     return result;
 }
 //              0   1   2   3   4   5   6   7   8
-int [] array = {11, 23, 36, 14, 25, 76, 47, 18, 29};
+int [] array = {11, 23, 36, 94, 25, 76, 47, 18, 29};
 
 
-int max = Max(Max(a1, a2, a3), Max(b1, b2, b3), Max(c1, c2, c3));
+int max = Max(Max(array[0], array[1], array[2]), 
+              Max(array[3], array[4], array[5]), 
+              Max(array[6], array[7], array[8]));
 Console.WriteLine(max);
